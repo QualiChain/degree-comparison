@@ -1,0 +1,299 @@
+{
+    "properties": {
+        "name": "Electrical and Computer Engineering",
+        "school": "Instituto Superior Técnico, Universidade de Lisboa",
+        "ects": 180,
+        "courses": [
+            {
+                "name": "Computer Networks and the Internet",
+                "description": "Introduction: packet switching networks (computer networks) and the Internet; layered architecture and protocols; performance measures. Application layer: names, IP addresses and ports; Web and HTTP; email and SMTP; Conversion names-addresses-IP and DNS; peer-to-peer applications; the sockets interface. Transport layer: UDP; reliable and orderly data transfer; flow control; congestion control; TCP. Network layer: addressing, forwarding and forwarding; state-of-link, vector-distance and vector-path protocols; CIDR; intra-domain forwarding, OSPF and rip; virtual circuits and MPLS; inter-domain forwarding and BGP; IPv6; DHCP and Nat; VPNs; multicast. Data link layer: multiple access; Aloha, CSMA and variants; local area networks, local addresses and ARP; shared and switched Ethernet; WiFi and IEEE 802.11 standard. With the opportunity, aspects related to quality-of-service and safety in networks will be taught.",
+                "ects": 7.5
+            },
+            {
+                "name": "Electronics I",
+                "description": "NMOS and CMOS logical families. Logical ports (primitive, complex, passing, 3-state logic). Functionality, performance and power consumption. Transfer feature. Noise margins. Response in time2.basic analog circuits amplification floors: Elementary assemblies (gains, input and output impedances). Frequency response. Floor cascode with bipolar transistors (TJB)s and MOS (TMOS). Current sources with tjbs and TMOs. Output floors in Class A, B and AB and D. thermal properties of operation.3. Differential operational amplifiers. Structure of an operational amplifier (ampop). Differential gain and common gain. CMRR. Bias errors: deviation voltage and input currents. Frequency response. Ampop limits: slew-rate, dynamic input and output ranges, noise, harmonica.4. Circuits with operational amplifiers inverters and non-inverters assembly, Sumer, subtractor and voltage current converter. Integrator and differential. Precision rectifiers. Logarithmic and exponential amplifier. Applications.",
+                "ects": 7.5
+            },
+            {
+                "name": "Circuit Analysis",
+                "description": "1) fundamental concepts in linear electrical circuits: electrical quantities, passive and active components, signal conventions, energy conservation, linearity and overlap. 2) analysis of resistive circuits in steady state: Kirchhoff laws, voltage and current dividers, duality, theorems of Thévenin and norton.3) network analysis: topology notions, topological equations, orthogonality, Tellegen theorem, Constitution equations, reduction in the number of network equations, Nodes and malhas.4) dynamic regime of linear circuits: state variables, first-order Circuit Response to step-type stimuli and impulso.5) circuit analysis in the field of frequency: sinusoidal quantities, complex amplitudes, impedance and admittance operators, first and second order circuits, Passive filters, non-linear signal driven circuits) linear diports: imitation, hybrid and transmission arrays, diport connections, reciprocity and simetria.7) diode circuits: non-linear passive characteristic, diode models, diode applications (limiting circuit, protective circuit, Half wave and full wave rectifier circuits, logic ports).8) circuits with operational amplifiers: non-linear active feature, AMP-Op models, inverter and non-inverter assemblies, AMP-Op applications (isolator circuit, sum and difference circuits, differentiator and integrator circuits).",
+                "ects": 6.0
+            },
+            {
+                "name": "Wireless Mobile Networks",
+                "description": "Introduction to wireless networks. Main modulation and transmission techniques. Wireless network performance: link budgets and spectral efficiency. Middle access protocols. Local and Personal Wireless Networks: Wi-Fi and Bluetooth. Adhoc and sensor networks. Internet of Things: IEEE 802.15.4, 6LoWPAN. Network layer protocols on mobile and wireless networks: mobile IP, pmipv6. Transport layer problems. Mobile operating systems: Android. Mobile cellular networks (overview): GSM, UMTS, LTE and LTE Advanced.",
+                "ects": 6.0
+            },
+            {
+                "name": "Modelling and Simulation",
+                "description": "Introduction to modeling and simulation. Part I: continuous and discrete systems: Differential equations and differences; models of uncertainty. Dynamic models (linear and non-linear). Analysis of balance points and stability. Phase space, limit cycles. Examples: economic and physical systems, electromechanical systems, biological processes and population evolution. Simulation tools. Part II. Discrete Event Systems. Automats, Petri networks, languages. Probability Modeling of uncertainty Markov chains equivalent to automats and Petri networks. Stochastic and Monte Carlo simulation. Examples: Communication Systems, genome, transport system. Part III. Introduction to hybrid systems. Hybrid Automata. Examples: biological systems with multiple modes, autonomous vehicle control, air traffic control",
+                "ects": 7.5
+            },
+            {
+                "name": "Advanced Computer Architectures",
+                "description": "-RISC architectures, in particular control units and data path, analyzing the different techniques for resolving conflicts inherent in pipeline processing-study of techniques to explore the parallelism at the instruction level, statically, by the compiler, Or dynamically by hardware-analysis of techniques to explore parallelism in super-scalar processors (Pentium, AMD, PowerPC, etc) and VLIW (Transmeta Crusoe, tms6xxx) and specialized architectures such as the TriMedia and Sony PlayStation3-study of virtual memory systems (cache-> Main memory-> disk) and its interaction with the processor and I/O devices-analysis of techniques for efficient programming of Systems",
+                "ects": 6.0
+            },
+            {
+                "name": "Theoretical Foundations of Electrical Engineering",
+                "description": "Electrostatic. Stationary chains. Magnetic field of stationary currents. Magnetic induction phenomena. Electrical induction phenomena. Elementary circuits in almost stationary conditions (forced and transient regimes). Variable electromagnetic field. Transmission line (distributed parameters).",
+                "ects": 6.0
+            },
+            {
+                "name": "Entrepreneurship, Innovation and Technology Transfer",
+                "description": "1. innovation, entrepreneurship and competitiveness. 2. innovation factors and innovation processes 3. Transfer of intellectual technology and property. Interconnects technology/product and service/market. 5. product development process and your organization. A. creativity and product planning. B. user needs and product specifications. C. C. Generation, selection and test of concepts. D. product architecture. E. industrial design, engineering and prototyping 6. risk management. Identification and assessment of risk factors and contingency plans.7 Design for Manufacture/assembly, project for ambiente.8. Project for cost, “target price/target cost” 9. Economic Analysis and sources of financing 10. Legal aspects associated with the creation of business11. Business plan. Marketingb's plan. Production Plan/operations C. Management Plan and organization. Financialplan 12. Project discussions/business plan.",
+                "ects": 6.0
+            },
+            {
+                "name": "Fundamentals of Telecommunication",
+                "description": "1. introduction. Model of a telecommunications system.2. Model of a digital source. Introduction to the problem of source coding. information measurement and entropy. Compressão.3. Channel capability and channel coding. Discrete channels semi-memory. Gaussian channel capacity additive. Optimal pelocanal tax limits. Channel Coding: transmission error control techniques. Block linear codes: hamming.4. Introduction to Stochastic Processes. Characterization. Noisy models.5. Analog modulation of sinusoidal carriers. AM and FM. Eruted band-pass signs. Performance against noise. 6 scanning analog sources-PCM systems. Sampling equantization. Quantization error and noise. Digital transmission. Vector perspective. Signal formats. Optimal receiver. Adapted filter. Error probability. interference between symbols (ies) eye diagram. Cancellation dates.",
+                "ects": 7.5
+            },
+            {
+                "name": "Propagation and Radiation of Electromagnetic Waves",
+                "description": "Fundamentalconcepts flat waves in unlimited medium. Characterization of dielectric means and conductors. Polarization. Power transported. Reflection and refractive in Surface Grinding. spread guiadalinhas de transmissãoefeitos high frequency. Transmission lines without and with losses. Voltage and current along a line. Letter from Smith. Metal guides of parallel planes and rectangular cross-section. Manners. Dispersion equation, cutting frequencies, phase and group speeds, Brillouin diagram. Power transport and attenuation. optical fibers modes. Standard parameters. Unimodal and multimodal optical fibers. Dispersion and attenuation. Information transmission capability. radiationelementary antennas: Hertz electric dipole and small spire. Fundamental Parameters of antennas. Linear dipoles. Monopolies. Aggregates. Image theory. Application of electromagnetic waves radar and radiocommunications as examples of application of electromagnetic waves. Radar equation. Friis formula. Interference between the direct beam and the reflected beam in a radio communication.",
+                "ects": 7.5
+            },
+            {
+                "name": "Networked Embedded Systems",
+                "description": "Introduction and Applications features, nodes and network architecture, emerging platforms and technologies; types of transducers (sensors and actuators) with emphasis on Intelligent Transducers using Integrated Nanotechnologies and biotechnologies, signal collection and processing; real-time OS with energy consumption restrictions, specialized programming languages; Access control to the medium, communication distributed in wireless networks, forwarding in ad-hoc networks with thousands of nodes, geographical forwarding; processing and aggregation of information, Internodal synchronization, coverage and localization, follow-up and processing of cooperative signal; standardization.",
+                "ects": 6.0
+            },
+            {
+                "name": "Sensors and Actuators",
+                "description": "Characteristic parameters of sensors that determine their performance. Physical Principles of transduction. Electronic signal conditioning circuits and interface. Temperature, motion (displacement, speed and acceleration), position, force, torque, contact (tactile), humidity and acoustic sensors. Electromechanical, pneumatic and hydraulic actuators. Wireless sensor networks.",
+                "ects": 6.0
+            },
+            {
+                "name": "Master Dissertation in Electrical and Computers Engineering",
+                "description": "I have a bachelor's degree in mechanical engineering and a bachelor's degree in mechanical engineering. Requirements Specification methods and models. Engineering Process development methodologies. Methods and tools for identifying and planning tasks and progress reports in the context of an engineering project. Concepts of introduction to research. Development methodologies and project implementation. Scientific research and development methodologies. Methods of demonstration and validation of progress results. Methods of production and validation of prototypes. Preparation of technical documentation. Publication of results.",
+                "ects": 30.0
+            },
+            {
+                "name": "Differential and Integral Calculus II",
+                "description": "Algebraic and topological structure of R<sup> N </sup>. Functions of r <sup> N </sup> in r <sup> M </sup>: limit and continuity. Differentiability. Partial derivative. Derived from the compound function. Taylor's theorem in r <sup> N </sup> and application to extreme study. Inverse function and implicit function theorems. Conditioned extremes. Multiple integrals: Fubini theorem, variable change theorem, applications to the calculation of physical quantities. Line integrals: Integrals of scalar fields and vector fields; fundamental theorem of calculation for line integrals, gradient and potential scalar fields; green theorem. Surface integrals: Integrals of scalar fields and vector field flows; Stokes divergence theorem.",
+                "ects": 7.5
+            },
+            {
+                "name": "Electrical Drives and Electrical Vehicles",
+                "description": "Typical configuration of a variable-speed drive system. Characterization of certain mechanical loads and electric traction systems. Common solutions of electromechanical and electronic converters and their functional characteristics. Dynamic models? Scalars (Kron, Park) and vector (FBH)? Of rotary converters (asynchronous and synchronous machine). Dynamic Models of mean values of the electronic converter and electromechanical converter Association. Description and characteristics of methodologies used in variable speed drive Systems Command (static Ward-Leonard, V/F, field orientation and DTC). Analysis of some typical implementation examples. Characteristics of the infrastructure of railway power systems.",
+                "ects": 6.0
+            },
+            {
+                "name": "Probabilistic and Statistics",
+                "description": "<I> basics:</i> random experience. Events. Frequent and subjective concepts of probability. Kolmogorov's axiomatic. Probability conditioned. Bayes theorem independence.<i> random variables:</i> distribution function. Discrete and continuous random variables. Expected value, variance and other parameters. <I> Joint distributions and add-ons:</i> Joint, marginal and conditional distributions. Independence. Correlation. Approaches between distributions. Central boundary theorem. Law of large numbers. <i> Sampling and punctual estimation:</i> Descriptive versus inductive statistics. Random sample. Statistics. Punctual pet. Properties of estimators. Method of maximum verosimility. Average and variance sample distributions. <I> pets by intervals:</i> basics. Reliable intervals for normal and other population parameters. <I> hypothesis tests:</i> basics. Hypothesis tests for parameters of normal populations and others. Pearson adjustment tests and independence in contingency tables.<i> simple linear regression:</i> estimation by the minimum square method and their properties. Inference in the simple linear regression model. Determination coefficient and empirical analysis of waste.",
+                "ects": 6.0
+            },
+            {
+                "name": "Engineering Management Projects",
+                "description": "Our goal is that students learn and construct their own knowledge, creating their specific view on project management. We explore the integration of mainstream approaches (PMBoK), complementary approaches (critical chain) and of a diversity of different views and problems (scientific papers on PM). We work on the development of a sociotechnical view, mainly in the first phases of the engineering process (requirements analyses, specifications, and design). We unveil some social networks fundamentents using actor-network theory. With this approach we intend to promote the construction of individual knowledge and to let each one know the best practices in the field. Our Tonic is in design projects in engineering.? Project management specificities: organizational context, technological context, engineering process, project management knowledge areas. Engineering process and management process.? Activities, processes, tasks, managing the part and managing the whole (system). Process View.? Project phases (life cycle): Origin, start, planning, execution, control and closing. Performance Evaluation, learning cycle, team learning.? Teams and groups (team choice, team building, communication in the team, leadership, enrolling, processes of work, work division, delegation, alignment, effectiveness and Efficiency control (Effectiveness/efficiency matrix), collaborative work, agile planning and conflict management)? Communication skills? Organizational Communication (informal, formal, oral and written). Validation communication (type 2). Reports on options taken, problems and project evolution. Support infrastructure for information and communication in a project.? Different projects (dimension, extension and scientific domain. Portfolio Management)? Key competences to manage a project (planning and scope, governance, change management, stakeholders management, risk management, resource management, quality management, communication reports, control, evaluation and closing)? Project scope should address: Benefits (long term and bottom line outcomes), clients addressed (stakeholders? All that can affect or are affected by the project), results (products and/or services), work (activities and tasks) and resources (human, material, technology and finance)? WBS work breakdown structure? Planning with pert and Gant, critical path. Time management? Resource allocation? Costs and estimates, cost control? Project Control, overall and phase to phase? Risk Management (identification, qualification, quantification, response and control). Decision trees, decision tables, expected value, utility functions? Detailing issues occurred (occurring, when, what, who and state)? Earned value and buffers.? Reports and log books? Managing by anticipation? Cooperation (inside, outside, inter group). Coopetition? Decision making processes, leadership and decision, communication and decision? Managing change (scanning the environment and preparing the change investing in)? Contracting, procurement, negotiation? Conclusion (closing) and Learning (Lessons Learned)? Social and Ethical Responsibility along this course we address topics like: Organizational culture, work context, organizational structure, job description and responsibilities, delegation, competence, motivation, organizational policies and standards, processes workflow, integrated Management of heterogeneous resources (human, technological and finance). Students will learn how to use Ms project during the development of a project. In the laboratory classes the students organized in groups will present power point presentation of papers taken from the International Journal of project management and project management journal. This laboratory classes are discussion classes.",
+                "ects": 6.0
+            },
+            {
+                "name": "Digital Signal Processing",
+                "description": "Part I? Discrete transformations and filtragem1. Discrete Systems and signals. Processed Z3. Discreet fourier4. Digitalpart II filtration? Signal processing based on model5. Random signs 6. Pet parâmetros7. Adaptive filtration system",
+                "ects": 6.0
+            },
+            {
+                "name": "Algorithms and Data Structures",
+                "description": "Analysis of Algorithms and Complexity: basic concepts, classification of algorithms, Introduction to complexity, better/worse/medium cases, assimptotic results, recurrence. Sorting Algorithms: selection, insertion, bubbles, Shell, quick and joint. Trees: Definitions, binary trees, insertion algorithms, search and removal. Trees balanced. Come on. Dispersion tables. Graphs: Definitions, arrays and adjacent lists; demand and pairing algorithms; shortest path. Comprehensive trees of lower cost.",
+                "ects": 6.0
+            },
+            {
+                "name": "Spoken Language Processing",
+                "description": "The subject is structured in 7 chapters. In the first chapter, of an introductory nature, the objectives of the discipline and the main applications of speech synthesis and recognition are presented and the necessary concepts of PDS (digital signal processing) are reviewed. In the second chapter, the way humans generate and interpret speech is necessarily briefly discussed, describing the mechanisms of production and hearing of speech and including some notions of perception. The following 4 chapters study how computers simulate this human functioning, including successively speaking signal analysis techniques, coding models and text-to-speech conversion methodologies (synthesis) and speech-text (recognition). This last chapter includes not only the area of speech recognition itself, but also the area of speaker and language recognition. The final chapter is dedicated to applications, namely in the field of multimedia signal processing, dialogue systems, speech-to-speech translation systems and e-learning and e-health applications. The program has often included extra-curricular lectures that have been lectured by foreign researchers or other colleges in Portugal and also study visits.",
+                "ects": 6.0
+            },
+            {
+                "name": "Fundamentals of Electrical Power Systems",
+                "description": "Characterization of the production and consumption of electrical energy. Energy and Power. Load diagrams. The three-phase electrical system. Power quality. Transmission and distribution of electrical power: the transmission line. Voltage level change: Transformer. Electromechanical energy conversion: synchronous and asynchronous machines. Introduction to Network Analysis: values per unit; energy transit; short circuit currents.",
+                "ects": 7.5
+            },
+            {
+                "name": "Hardware/Software Co-Design",
+                "description": "Hardware-software and co-project systems. Specialization languages, methodologies and tools at system level languages design. Mapping architectures, HW-SW interfaces and reconfigurable computing. FPGA-based embedded systems: sopcs-programmable chip systems. processor cores and intra-chip networks. Hardware accelerators and co-design of shakes. Project examples and study cases.",
+                "ects": 6.0
+            },
+            {
+                "name": "Management",
+                "description": "1. introduction to management. 2. organizations and human resources-2.1 culture, ethics and structure of organizations. 2.2 Human Resource Management. 3. the economic environment-3.1 general concepts. 3.2 Macroeconomics: economic agents and economic flows; macroeconomic variables. 3.3 microeconomics: markets, demand and supply; economies of scale, range and experience; market structures; the role of the state. 4. The financial Information-4.1 organization of financial information: Role and foundations of accounting; 4.2 balance sheet and statement of results; 4.3 analysis of economic-financial ratios; 4.4 basic notions of cost 4.5. Cost-volume analysis-result.5. Analysis of investment projects-5.1 How to Calculate current and future values: capitalization and upgrade; inflation and real rates; nominal and effective interest rates; annuities and perpetuities. 5.2 Analysis of the profitability of investment projects: cash-flows; refresh rate; net current value; internal profitability rate; investment recovery period; profitability index. 6. strategic management-6.1 Introduction: The process of formulating and implementing the strategy. 6.2 Situation Analysis: external analysis-General and transactional envelopes; internal analysis; SWOT matrix. 6.3 Strategy Formulation: Corporate level strategy; business level strategy; functional and operational level strategy. 7. Marketing - 7.1 Introduction: Fundamental concepts; consumer behavior. 7.2 Segmentation, targeting and positioning (STP). 7.3 Marketing Mix: product; price; promotion/communication; distribution.",
+                "ects": 4.5
+            },
+            {
+                "name": "Analog Integrated Systems",
+                "description": "0. 0. Introduction 0.1) silica technology0.2) analog circuit design flow.1 Nyquist and over-sampled rhythm converters 1.1) fundamentos1.2) mos1.3 transistor sampling and retention circuits) nyquist1.4-rate A / D converters) Nyquist-rate D/at-rate converters 1.5) converters with oversampling. MOS transistors and analog circuit design 2.1) devices in silicio.2.2) current sources and amplifiers of an andar.3. Advanced amplifiers and comparators3.1) CMOS amplifiers with two andares3.2) transconductance3.4) comparators. Circuits with switched capacitors 5. Advanced MOS transistor models 4.1) transistor models with strong, moderate reversal and fraca.4.2) noise in electrolytic circuies4.3) layout.",
+                "ects": 6.0
+            },
+            {
+                "name": "Digital Transmission",
+                "description": "Introduction to Digital transmission in telecommunication systems. Digital transmission on sinusoidal carrier and base band: Pam format, line codes, linear and non-linear modulations, single port and multi-carrier modulations; synchronization, equalization and detection; performances. Channel Coding: block codes and convolutional codes, error control techniques, encoded modulation techniques (TCM: trellis-coded modulation), decoding techniques and algorithms. Random and pseudo-random sequences: Hadamard-Walsh and maximum period sequences; applications (spectrum scattering techniques, synchronization and channel pet). CDMA (code division multiple access): Fundamentals and comparisons with other multiple access forms. Digital radio transmission. Digital transmission in mobile communications systems.",
+                "ects": 6.0
+            },
+            {
+                "name": "Power Systems Transients and Stability",
+                "description": "Transient electromagnetic overvoltage types. Operating overvoltages: Circuit Breakers; types of circuit breakers; short circuit current cut-off; reset voltage and transient reset voltage (TTR); standard TTR representation; reset voltage to rated frequency; cut off capacitive currents; cut off magnetization currents; ferroressonance; Propagation of electromagnetic waves in lines; quilometric defect. Digital calculation of Electromagnetic Transients: Elements of concentrated parameters; elements of distributed parameters; non-linear elements; nodal equations; topology changes. Transient electromechanical models of synchronous machines; oscillation equation; area equality criterion; Classic model-solution in the field of time by numerical integration; Voltage regulator models; Load-speed regulators models; solution in the field of full model time. Low frequency oscillations and stability of linear tensionics of multi-machine systems; determination of own values and participation factors; influence of parameters on voltage stability: Hopf forks; power system stabilizers (PSS).",
+                "ects": 6.0
+            },
+            {
+                "name": "Functional Genomics and Bioinformatics",
+                "description": "Topics: 1. organization and structure of a genome. Genome sequencing methods and strategies. Genome annotation. Metagenomics. 2. Comparative Genomics. Origin genes and parasites. Concept of sintenia. 3. analysis of genome-scale gene expression: transcription and proteomics of expression. Experimental methodologies for the Study of the regulation of genetic and genomic expression. 4. Functional Genomics. Chemogenomics, metabolomics, rnomics, metagenomics and other omics. 5. Introduction to Systems Biology. 6. applications in research in biology, biotechnology and biomedicine. 7. Introduction to Bioinformatics: microarrays data analysis techniques; pattern recognition; unsupervised methods and supervised learning; dimensionality reduction. The laboratory practice classes will focus on the use of bioinformatics tools for: 1. annotation and comparison of genomes 2. Protein structure prediction 3. Phylogenetic analysis based on synthenia 4 maps. Quantitative analysis: Of two-dimensional geese 5. Interpretation of the biological significance of data at the genome 6 scale. 7. NMR-based metabolic data analysis modeling of metabolic networks 8. Data clustering 9. Data Classification 10. Biostatistics.",
+                "ects": 6.0
+            },
+            {
+                "name": "Electrical and Servicing Systems",
+                "description": "1. low voltage networks and installations: luminotechnics: fundamental quantities and units, light sources, lighting appliances and control systems; design and calculation of lighting installations. Electrical installations in buildings and industrial installations; regulatory aspects; building installation projects: Choice of cables and conductors, electrical frames and protections, people safety systems, earth electrodes, protection against atmospheric discharges, fire detection systems; driving force installations: protection and control of motors.2. Calculation of short circuits in industrial installations: design calculation of the thermal and mechanical effects of short-circuit currents on equipment: transient regimes (unidirectional and sub-transient components), and representation of its effect. Circuit breakers: current cutting technologies, cutting and closing power, and interface with IEC 60909 standard. Electric arc. Sizing of equipment accordingly.",
+                "ects": 7.5
+            },
+            {
+                "name": "Mobile Communication Systems",
+                "description": "Topics to be addressed deal with aspects common to various mobile communications systems, as well as specific topics mainly of GSM (2G), UMTS (3G), LTE (4G) systems and NR (5g): Introduction, statistical distributions in telecommunications, propagation models, antennas for bases and furniture, Radio channel characterization, cellular networks, radio interface, private mobile radio systems, mobility and traffic, cellular sizing.",
+                "ects": 6.0
+            },
+            {
+                "name": "Complex Analysis and Differential Equations",
+                "description": "Complex analysis. Complex plan. Numerical series. Absolutely convergent series. Series of powers. Differentiability, holomorphic functions. Add-ons on series of functions, analytical functions. Cauchy's theorem. Homotopia. Cauchy's full formula. Isolated singularities. Laurent series. Waste theorem. Improper integrals. Convergence theorems. Leibniz rule. ordinary differential equations. First order equations. Linear, separable, exact equations and integral factors. Existence and uniqueness of solution. Solution Extension. Resolution of linear ordinary equations systems. Exponential matrix. Formula of variation of constants. Fourier series. superior order linear equations. Fourier series convergence. Partial differential equations. Variable separation method. Heat equation. Laplace equation. Wave equation, transformed from Laplace.",
+                "ects": 7.5
+            },
+            {
+                "name": "Control and Optimization of Electric Power Systems",
+                "description": "Automatic control on interconnected networks: voltage control and generation control. Real-time dispatch. Energy transit optimized. Assignment of thermal groups. Water resource programming. Programming of contractual and independent resources. Coordination of resources and programming in the context of the electricity market.",
+                "ects": 6.0
+            },
+            {
+                "name": "Telecommunications Systems",
+                "description": "Model and elements of a telecommunications system. Theorem of sampling. PCM-uniform quantification, non-uniform quantification. TDM-basic concepts, structure and weft alignment, PDH and SDH hierarchies. Encoding for error control. Base Band transmission-line codes, ideal transmission medium, real transmission media, intersymbolic interference, equalization, regeneration vs. amplification. modulated transmission-analog modulations (AM, FM, PM), binary digital modulations (ask, FSK, PSK), M-scale digital modulations (M-PSK and M-QAM). Digital Hertzian beams-basic characteristics of a Hertzian beam, frequency planes, spread in clear space, influence of the surface of the Earth and the atmosphere, ITU-R recommendations, project of a connection in Hertzian beams. Introduction to satellite communications-features of a satellite connection, power distribution, multiple access (FDMA, TDMA, CDMA). Optical Communications-elements of a fiber optic connection, transmission windows, fiber optic structure, attenuation, distortion, fiber types, optical sources, optical doreceptor structure, noise characterization in the receiver, statistics of the detected signal, project of an optical link.",
+                "ects": 6.0
+            },
+            {
+                "name": "Renewable Sources and Distributed Power Generation",
+                "description": "1-characterization of the Portuguese electric sector 2-criteria for economic evaluation 3-mini-water energy 4-wind energy 5-Photovoltaic Energy 6-cogeneration 7-electric conversion equipment",
+                "ects": 6.0
+            },
+            {
+                "name": "Optical Fibre Telecommunication Systems",
+                "description": "1. Introduction to fiber optic telecommunication systems (stfo). 2-technologies and techniques of stfos. 3-stfos mono-channel. 4-multi-wavelength telecommunications systems (WDM). 5-optical access networks.",
+                "ects": 6.0
+            },
+            {
+                "name": "Parallel and Distributed Computing",
+                "description": "Parallel computing models: multiprocessors and multicomputers; memory organization; communication complexity. Interconnection Networks. Taxonomy deflynn. programming in message pass systems: MPI, Foster methodology. Programming in systems with shared memory: OpenMP, threads, resulting conditions, interlocking Detection. Analysis and Synthesis of parallel algorithms: problem Division; data organization; synchronization; balancing and staggering. Analysis of the performance of parallel algorithms. Distributed computing fundamentals and their applications to parallel algorithms. Parallel Algorithm study: ordering algorithms; numerical algorithms, multiplication of arrays, linear system solution. Graphical algorithms, search and optimization algorithms.",
+                "ects": 7.5
+            },
+            {
+                "name": "Object Oriented Programming",
+                "description": "* History and framing of the oo paradigm. * modeling in UML.* introduction to Java.* classes and objects in Java.* methods in Java.* heritage and associations in Java.* interfaces and packages in Java.* exceptions in Java.* J2SE containers, comparators and iterators. * J2SE inputs/outputs. * sax tools and XML file analysis Dom. * computing at www.",
+                "ects": 6.0
+            },
+            {
+                "name": "Antennas",
+                "description": "1-Introduction: types and classes of antennas; antennas in communications systems. 2-Electromagnetic Field Theory: Maxwell equations; distant zone approximations; reciprocity theorems. 3-antenna parameters: radiation diagram, Directivity, yield, gain, impedance, bandwidth, effective area, effective length, polarization, noise temperature. 4-linear antennas: dipoles, monopolos, bent dipole; adaptation systems. 5 \"loop\" antennas: small and large loops. 6-linear aggregates: uniform aggregates; Dolph- Chebyshev aggregates; synthesis of spatial factors. 7-electromagnetic computing: integral equations and resolution by the method of moments; method of finite differences in the field of time-FDTD. 8-progressive wave antennas: long wire, V's and Robbins. 9-Channel: normal mode and axial mode. 10-aperture antennas: equivalence theorems; rectangular and circular openings; sectoral, Pyramid, and conical electromagnetic horns. 11-reflectors: flat and corner reflectors; paraboloid reflectors; double reflectors. 12-antennas printed: base structures and applications; rectangular and circular elements; aggregates and feeding techniques.",
+                "ects": 6.0
+            },
+            {
+                "name": "Linear Algebra",
+                "description": "Resolution of linear equations systems. Method of elimination of Gauss. Matrices and vectors. Linear spaces and linear transformations. Linear independence. Bases and dimension. Core and contradiction of a linear transformation. Internal products and standards. applications to linear differential equations. Orthogonal bases and Gram-Schmidt orthogonization. Orthogonal supplements and projections. Straight equations and plans. Determinants and applications. Own values and vectors. Invariant subspaces. Diagonalization of arrays. Hermitage, anti-Hermitage and unitary transformations. Quadratic shapes.",
+                "ects": 6.0
+            },
+            {
+                "name": "Power Electronics for Renewable Energy",
+                "description": "1. -structures, command and regulation of DC-AC converters two-stage and one-stage lifts for photovoltaic generation. Galvanic isolation by transformer and resonant condenser. Polyphase conversion to voltage and current.2. -Structures, command and regulation of Multilevel converters (NPC, floating capacitors, modular half-bridge, full bridge, 3 levels). Converters for high voltage. Applications of converters with a large number of levels in the transport of renewable generation electric power in DC at high voltage HVDC current (CSC-HVDC) and voltage (VSC-HVDC).3. -Matrix converter structures (direct, indirect, sparse). Command and regulation of matrix converters. -Applications in wind source production with double-powered induction machines.5. -Converter applications and converter associations in the storage and conditioning of renewable generation electric power.",
+                "ects": 6.0
+            },
+            {
+                "name": "Thermodynamics and the Structure of Matter",
+                "description": "1. thermodynamic system. Work and heat. Heat capacity, specific heat and latent heat. The states of matter. Phase transitions. Temperature. temperature. Heat transmission: convection, conduction and radiation2.the perfect gas. Kinetic gas theory. Temperature and kinetic energy. Specific heat volume and constant pressure. Solid specific heat. Real gases: Van der waals.3.energy and entropy equation. The principles of thermodynamics. Reversible and irreversible transformations. Thermal machines.4.statistical physics and thermodynamics. Entropy and disorder. Postulates of statistical physics. Maxwell speed distribution-boltzmann.5.the bases of quantum physics: Black body radiation and Planck law, photoelectric effect. The waves of matter and the uncertainty ratios of heisenberg.6.structure of matter: energy scales. Molecules, atoms, Nuclei and Particles. The spin and Pauli's exclusion principle. Chemical and nuclear energy. The fundamental forces and particles of the universo.7.technological applications: Semiconductor and modern electronics. Plasmas and nuclear fusion. Stimulated emission and lasers. Nanotechnology.",
+                "ects": 6.0
+            },
+            {
+                "name": "Programming",
+                "description": "-Introduction-computers and operating systems; algorithms and programming languages-development, compilation and debugging of a program-notion of lexicon, syntax and semantics; programming Language C-elementary concepts-structure of a program-types of elementary data; constants; operators and expressions-Introduction to input/output instructions-flow control-decision: if-cycle instruction: While instruction; While instruction; instruction for-selection: switch structure-structured programming-functions; global and local variables-visibility and lifespan of a variavel-modularity and structuring: file division-Data Structures-vectors; strings-multidimensional vectors (arrays,? )-Structures-applications-simple search algorithms-Introduction to ordering algorithms-notion of recursiveness (functions)-sharpeners-statement of sharpeners-passage of arguments: value and reference-sharpeners and arrays-sharpener arithmetic-Files-file use-input and output-text files-dynamic data structures-static and dynamic variables-notions of structures dynamic Data-cells; rows; single and double-linked lists",
+                "ects": 6.0
+            },
+            {
+                "name": "Introduction to the Research in Electrical and Computer Engineering",
+                "description": "Methods of analysis and modeling of engineering problems. development methodologies and project realization. Concepts of introduction to research. Scientific research and development methodologies. Preparation of technical documentation.",
+                "ects": 6.0
+            },
+            {
+                "name": "Robotics",
+                "description": "(1) Introduction: Robot manipulators and mobile platforms. (2) cinematic and dynamic robot applications: Coordinate systems: position, orientation. Homogeneous coordinate transformations. Denavit-Hartenberg convention. Direct and inverse kinematics of manipulators. Cinematic mobile platforms. Differential kinematics. (3) sensors and actuators: Sensors: rotation, accelerometers, gyroscopes, sonares, laser range finder and vision. Actuators: motors, deflection surfaces.(4) motion planning and navigation: trajectories in space and time. Generation of trajectories. Planning pathways by search in visibility graphs and artificial potentials. (5) control of manipulative and mobile robots.(6) control of mobile robot formations.(7) programming languages of robots. Interfaces.",
+                "ects": 6.0
+            },
+            {
+                "name": "Electromagnetism and Optics",
+                "description": "1. electrostatic field in vacuum. Coulomb's law. Overlap principle. Field and potential wedding. Electric dipole. Gauss law. Capacitor. 2.electrostatic field in matter. Dielectrics. Polarization. Electric energy3.stationary electric current. Density and current intensity. Load continuity equation. Ohm's law. Joule's law. Kirchoff's laws. Rc.4.magnetic field in vacuum circuit. Biot-Savart law. Ampere's law. Lorentz's strength. Magnetic flux. Induction Coefficients. Bobina.5.magnetic field in matter. Magnetization. Diamagnetism, paramagnetism and ferromagnetism. Energy in magnetostactic.6.electromagnetic induction. Faraday's law. Electric motors and generators. Displacement current. Electromagnetic energy. Maxwell's rlc.7.equations circuit. Electromagnetic waves. Monochromatic flat waves. Energy and intensity of electromagnetic waves.8.electromagnetic nature of light. Dispersion, polarization, reflection, interference and diffraction. The boundary of geometric optics and the laws of reflection and refraction. Fresnel equations and Fermat principle.",
+                "ects": 6.0
+            },
+            {
+                "name": "Photonics",
+                "description": "Introduction. Diadic calculus, tensioners, differential shapes and geometric algebra (from Clifford). Relativistic formulation of electrodynamics. Relativistic Optics. Introduction to variational methods; application to variable-profile optical fibers. Elementary theory of material dispersion: Lorentz model. Cavities and filters of Fabry-Perot. Fundamental concepts of quantum mechanics: Hilbert spaces, Dirac notation, operators and relationships of uncertainty. Laser amplification. Semiconductor lasers: pulse emission by direct modulation of the injection current.",
+                "ects": 6.0
+            },
+            {
+                "name": "Linear and Nonlinear State-Space Control Theory",
+                "description": "1. linear models of state space. State equation and its solution. Transition matrix. State achievements. Relations with the transference.2.refeeding of state variables. Controllability/observability. Minimal achievements. Interpretation in terms of poles and zeros. Controller by pole placement through linear state feedback. Method of undetermined coefficients. Bass-Gura formula. Formulas of Ackerman and Mayne-Murdoch. Observers. Separation theorem. Tracking reference.3.non-linear systems. Non-linear systems status model. Analysis on the state plan. Balance points. Linearization. Stability. stability. Relationship between the stability of the balance points of the non-linear system and the linearized system. Examples of qualitative determination of solutions. Second method of Lyapunov. Lyapunov equation. Descriptive function method. Non-linear controls.4.optimal control. Pontryagin principle for fixed terminal time problems and without restrictions in terminal state. Problems with terminal state restrictions. Quadratic linear problem. Gaussian quadratic linear problem (LQG). Kalman filter.",
+                "ects": 6.0
+            },
+            {
+                "name": "Electronics II",
+                "description": "1. refeed and stabilityrefeed agents and their effect on the sensitivity of the features give up. Topolgias of refeeding. Stability depending on the yield. Nyquist diagram. Gain and phase margin. Effect on resposaem frequence.2. Analog and digital filters project transfer functions with approach to Butterworth and dechebyshev. Other functions of transfer by frequency transformations pass-down functions. Carrying out passive and active filters by direct simulation (GIC). Bi-quadratic sections. Digital system transfer functions. Performing digital filters.3. Barkausen oscillator. Oscillator Circuits: Wien bridge, phase bypass and LC. oscillating frequency and amplitude stability. Oscillators derelaxation. Voltage Controlled Oscillators (VCO). Applications.4. Introduction to Digital Electronic Systems project flow of digital systems project. FPGAs architectures. Linguagemverilog of description of logic circuits. Simulation and realization of logical systems in FPGAs.",
+                "ects": 7.5
+            },
+            {
+                "name": "Signal Processing Electronic Systems",
+                "description": "Sampling and acquisition of signals: sampling of low-pass and crossover signals. Spectral overlap noise. A/D and D/A converters. Quantification noise. Signal Processing: Multi-rhythm signal processing, with emphasis on application to digital radio-frequency modulators and demodulators (radio software). Digital analog frequency transformations. Transformed from Hilbert, Fourier and meatballs. Design of digital filters and oscillators. Digital phase capture meshes and applications. Digital Automatic control of amplitude. Digital modulators and demodulators. Carrier timing in digital communication systems. Adaptive Filters: structures and adaptation algorithms. Adaptive equalization. Adaptive echo and noise cancellation. Signal Processors: efficient architectures for signal processing. Numerical representation. Effect of quantification. Detailed study of tms320cxx processor and development tools.",
+                "ects": 6.0
+            },
+            {
+                "name": "Electronic Power Conversion and Storage",
+                "description": "1. The-power semiconductor devices: PN, pin and SiC Schottky diodes; Junction bipolar transistors; MOSFET and IGBT and iegt isolated port bipolar transistors; GTO thyristors and thyristors, IGCT and eto; junction Field effect diodes, transistors and thyristors (FCD, sit, vjfet, BSIT, Sith) itself, SIC and C: characterization, losses, protections and command. Series and parallel associations, cascode generalized.2. -Analysis and Synthesis of electrical power switched electronic conversion topologies: DC-DC, DC-AC, AC-DC and AC-ac.3. -Electrical energy storage devices A.4. -Introduction to the study of linear and non-linear regulation of CCE. CCE linear and non-linear modeling. Synthesis of linear and non-linear compensators and commands for applications in electrical energy storage systems.",
+                "ects": 6.0
+            },
+            {
+                "name": "Instrumentation and Measurement",
+                "description": "1) Fundamentals of Instrumentation and Measurement International metrological system: errors. Statistical considerations. Units and patterns. Calibration. Functional modules for instrumentation: instrumentation and isolation amplifiers; RMS converters; synchronous phase meshes; D/A and A/D converters. Measurement principles, methods and procedures: analog and digital instrumentation; signal sampling; signal heterodination. Data acquisition systems. 2) measurement of electrical domain quantities measuring instruments: analog voltmeters and ammeters. Wattimeters. Digital multimeter. Time/frequency counter. Generators of functions and impulses. Frequency synthesizers. Analog and digital oscilloscope. Spectra analyzers. Lock-in amplifier. Measurement of electrical quantities. Resistance measurement and impedance.3) measurement transducers fundamental concepts. Force and position transducers: extensometers and LVDT. Signal conditioning. Linearization of characteristics.4) virtual instruments and automatic measurement systems. Fundamental concepts. Communication Standards for instruments. Acquisition Systems: computer equipment and programs.",
+                "ects": 7.5
+            },
+            {
+                "name": "Computer Architecture",
+                "description": "Historical perspective; data processing unit, control unit, central processing unit, elementary architectures of a computer system, instruction set architecture, assembly language programming, interruptions, RISC and CISC CPUs architectures, input/output units, memory units, evolution of computer architectures.",
+                "ects": 6.0
+            },
+            {
+                "name": "Differential and Integral Calculus I",
+                "description": "Real numbers (body properties; order ratio and Supreme axiom). Natural numbers. Induction method. Real functions of real variable: limit and continuity; differentiability-fundamental theorems; Cauchy rule and lifting indeterminations; Taylor formula. Primitivation. Integral R calculation: Integral of Riemann; integrability of sectionally continuous functions; fundamental theory of calculation; integration formulas by parts and by substitution. Elementary transcendent functions: Logarithm, exponential and hyperbolic functions. Numerical series: Geometric series; comparison criteria; absolutely converging series; power series",
+                "ects": 6.0
+            },
+            {
+                "name": "Electronic Fundamentals",
+                "description": "1. simple semiconductors and material compounds and crystalline network. Intrinsic and extrinsic semiconductors. Mechanisms of generation and recombination. Determination of NI, N and P. conduction and diffusion. Hall effect. Continuity equation. The thermistors, the photo-resistances and the Hall probe. 2. junction diode contacts metal-semiconductor and semiconductor-Semiconductor. P-n homojunction: stationary characteristics and dynamic regime. Rectifying and limiting circuits. The heterojunction diodes 3.bipolar junction transistor working principle. Stationary features and dynamic regime. Amplifiers circuits: polarization and frequency response. The heterojunction bipolar transistor4.transistors of campoj-FET effect and MOS-FET: Working principle. Stationary features and dynamic regime. Simple MOS inverter circuit and CMOS configuration. The tegfet.5.electronic devices of power and opto-electrosnicous thyristor: Working principle and characteristics. Dynamic aspects. GTO, Triac and DIAC: Structure and characterization. Circuits with thyristors. Photodiodes, solar cell, LEDs and semiconductor lasers.",
+                "ects": 6.0
+            },
+            {
+                "name": "Signals and Systems",
+                "description": "Continuous and discrete signals and systems. Properties of signals and systems. Linear and time invariant systems (Slits). Slits properties: causality and stability. Turned from Laplace and Fourier. Fourier series. Sampling and reconstruction of signs. Representation of slits in the field of time and transformations: impulse response, differential equations and transfer function. Responses in time and frequency of continuous slits. Influence of location of poles on system response.",
+                "ects": 6.0
+            },
+            {
+                "name": "High Frequency Electronics",
+                "description": "1. microwave and millimeter wave characteristics. microwave planar circuits and applications. 2. dispersion matrix. Interfaces with impedance and admittance arrays. Transmission lines. Microtape lines. Concentrated elements. 3. impedance adaptation meshes and filtration. Loss-free adaptation networks. Adaptation of impedances with concentrated and distributed elements using Smith's letter. Impedance transformation. Filters with distributed elements. Synthesis and optimization. CAD tools. 4. amplifiers. Transducer gain of an active port. Constant gain circumferences. Noise factor. Constant noise factor circumferences. Nonlinear behavior. Dynamic range. Polarization. Power amplifiers. Amplification classes. Composite assemblies. Couplers. Implementation in monolithic ICs and hybrid circuits. 5. mixers. Analog Diode mixers. Balanced structures. Hybrid quadrature and ring. Mixers with image rejection. Active mixers. Implementation in monolithic integrated circuit and hybrid circuits. 6. oscillators. The concept of conductance or negative resistance applied to the design of oscillators with transistors. Simulation techniques. Design of oscillators for maximum added power. Oscillation stability and synchronization. Voltage Controlled Oscillators (VCOs) 7. ECL logic. General about the family ECL family ECL 10K: static and dynamic characteristics. Design rules for logic systems with ECL technology. ECL circuit interconnection techniques: unfinished lines; parallel and serial finished lines; attenuation series resistance lines. Reflectometry in the field of time.",
+                "ects": 6.0
+            },
+            {
+                "name": "Systems Programming",
+                "description": "History and Architecture of operating systems, called the system. Processes and lead wires: launch, identification, process states, elimination, waiting for completion, process groups, execution wire models, dispatch and process staggering models, process Environment, Linux startup. Communication between processes: Communication Models, tube/queue communication, signals and shared memory, sockets. synchronization between processes: Racing problem, critical regions, traffic lights synchronization mechanisms, mutexes and manager. Memory management: allocation, pagination and segmentation. File Systems: EXT, ISO9660, VFS and NFS file systems. Software libraries, make tools and SCCS, RPM distribution file. device management: Programmed and interrupt I/O controllers, Linux modules.",
+                "ects": 7.5
+            },
+            {
+                "name": "Industrial Processes Automation",
+                "description": "1-Introduction to automation-wired logic and programmed logic. Introduction to methodologies for problem description.2-Introduction to PLCs-constituent components of PLCs. Internal structure and working. I/O interfaces. Interconnection between plcs3-programming languages of PLCs-ladder diagrams; instruction list; structured text. Description of the components of a typical language. Flow control structures. Development environments.4-grafcet-the grafcet standard and modeling technology.5? CAD/CAM and CNC machines-types of machines and their operation. Interpolation Methods for trajectory generation. Use in flexible manufacturing cells. 6? Discrete Event Systems-SEDS modeling. Automats. Petri networks: Dynamics and modeling. Restricted and extended models. Redes.7 subclasses-analysis of Discrete Event Systems? Methodologies and properties of SEDS. 8-SEDS and industrial automation-graphcet interface/Petri networks. Analysis of industrial automation solutions by analogy with seds.9? Supervision of industrial automation systems-supervised SEDS control. Synthesis of controllers.",
+                "ects": 6.0
+            },
+            {
+                "name": "Mechanics and Waves",
+                "description": "1. movement description in space and time. Cinematic. Relative movement. Dynamics (Newtonian mechanics): principle of inertia; concepts of mass and strength; action and reaction2.conservation laws and symmetries of space-time. Conservation of Energy (mechanical), linear moment and angular moment. Kinetic energy and potential energy.3.mechanical interaction between systems. External forces. Mass center. Work of a force. Conservative and dissipative systems. Movement of particle systems.4.movement of the rigid body: angular speed and acceleration; rotation of the rigid body; torque or moment of a force. Moment of inertia 5.stability of systems. Simple harmonic oscillations. Oscillations with friction and force.6.waves. Wave propagation. Propagation speed, amplitude, frequency and phase. Wave equation. Transverse waves and longitudinal waves.7.fluids: hydrostatic pressure. Principle of archimedes.8.einstein's strict relativity. Light speed in vacuum. Transformation of Galilee and transformation of Lorentz. Time dilation and space contraction. E = MC².",
+                "ects": 6.0
+            }
+        ]
+    }
+}

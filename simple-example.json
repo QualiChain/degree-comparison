@@ -1,0 +1,28 @@
+
+{
+	"properties": {
+		"name": "Licenciatura Bolonha em Engenharia Informática e de Computadores",
+		"school": "Instituto Superior Técnico, Universidade de Lisboa",
+		"ects": 180,
+		"courses": [
+			{
+				"name": "Foundations of Programming",
+				"description" : "To provide understanding of fundamental concepts related to programming, namely, algorithm, procedural abstraction and data abstraction, programming and construction of abstractions, programming paradigms. After completing this course, students should master the concepts presented and be able to develop programs in a high-level programming language, Python.",
+				"ects": 7.5
+			},
+          
+          	{
+				"name": "Introduction to Computer Architecture",
+				"description" : "Students should master the basic concepts and general operation of a computer, the physical structure supporting the execution of programs. They should be able to describe the operation of the basic elements of a computer: the processor, the memory system and the input/output system, and their interactions. In particular, they should be able to understand the internal structure of a processor and the process of instruction execution.",
+				"ects": 7.5
+			},
+						
+			{
+				"name": "Logic for Programming",
+				"description": "After the completion of the course, the students should understand what the components of a logic are, should be able to carry out proofs in the deductive system and to use the semantics. Students will be able to relate the deductive system with semantics and to prove properties about those relations. Students will understand the basis of automated reasoning and will be able to develop programs using the logic-programming paradigm.",
+				"ects": 7.5
+			}
+			
+		]	
+	}
+}
