@@ -3,8 +3,8 @@
 The Degree Comparison tool defined in task T4.2.
 
 For now it includes:
-- a schema
-- a very simple example (not a full degree)
-- 4 examples of real IST degrees (ist*.json)
+- a schema that defines the format of the degrees to be compared (degree.schema.json)
+- a very simple example, not a full degree, just to help understand the schema (simple-example.json)
+- the definition of a set of real IST degrees (ist*.json)
 
-The 4 examples can be compared among themselves. 
+The real degrees can be compared among themselves. A quick inspection shows that some are related, whereas others are not.
