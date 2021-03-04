@@ -1,6 +1,6 @@
 # degree-comparison
 
-The Degree Comparison tool defined in task T4.2.
+The Degree Comparison component defined in task T4.2.
 
 For now it includes:
 - a schema that defines the format of the degrees to be compared (degree.schema.json)
