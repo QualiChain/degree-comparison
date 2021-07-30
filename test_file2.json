@@ -1,0 +1,24 @@
+{
+    "properties": {
+        "name": "Computer Science and Engineering - Alameda",
+        "school": "Instituto Superior Técnico, Universidade de Lisboa",
+        "ects": 180,
+        "courses": [
+            {
+                "name": "Analysis and Synthesis of Algorithms",
+                "description": "Introduction to Analysis and Synthesis of algorithms; mathematical fundamentals for algorithm analysis; revision of ordering algorithms: mergesort; heapsort; quicksort; non-comparison-based ordering algorithms; revision of Data Structures: lists; stacks; rows; dispersion tables; binary demand trees; balanced trees; depreciated analysis. Application examples: binomial piles; Introduction to Computational Geometry. Graphical algorithms: elementary algorithms; lower cost comprehensive trees; shorter paths; maximum flows; Introduction to Linear Programming: simplex algorithm; Algorithm synthesis techniques: Dynamic programming; greedy algorithms; algorithms for Maximum pairing; Introduction to complexity: classes P and NP; NP-complete problems; Cook theorem; Study of Some NP-complete problems; approaches algorithms for NP-workmen problems;",
+                "ects": 6.0
+            },
+            {
+                "name": "Linear Algebra",
+                "description": "Resolution of linear equations systems. Method of elimination of Gauss. Matrices and vectors. Linear spaces and linear transformations. Linear independence. Bases and dimension. Core and contradiction of a linear transformation. Internal products and standards. applications to linear differential equations. Orthogonal bases and Gram-Schmidt orthogonization. Orthogonal supplements and projections. Straight equations and plans. Determinants and applications. Own values and vectors. Invariant subspaces. Diagonalization of arrays. Hermitage, anti-Hermitage and unitary transformations. Quadratic shapes.",
+                "ects": 6.0
+            },
+            {
+                "name": "Software Engineering",
+                "description": "Introduction to Software Engineering. Software design. Program writing. Development process. Engineering requirements. Project Management. Verification and validation.",
+                "ects": 7.5
+            }
+        ]
+    }
+}

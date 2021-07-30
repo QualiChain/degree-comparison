@@ -1,0 +1,25 @@
+{
+    "properties": {
+        "name": "Industrial Engineering and Management",
+        "school": "Instituto Superior Técnico, Universidade de Lisboa",
+        "ects": 180,
+        "courses": [
+            {
+                "name": "Information Systems and Databases",
+                "description": "The proposed program is: database modeling techniques. Customer information systems architecture servantdevelopment of information systems in integrative environments students should have minimal programming knowledge. customer information systems architecture. The programming used will be forms and SQL, both involving only elementary programming notions.",
+                "ects": 6.0
+            },
+            {
+                "name": "Thermodynamics and Transport Phenomena",
+                "description": "Thermodynamic systems and borders; control volumes; interaction with envelope; concepts of heat and work. heat transmission and mechanisms; Fourier (conduction), Newton (convection) and Stefan-Boltzmann (radiation) laws; heat equation, thermal conductivity and thermal diversity; initial and border conditions; Combined modes of heat transmission. Mass conservation; energy conservation and 1st law of thermodynamics; entropy and 2nd law of thermodynamics; thermodynamics properties and models; Carnot machine, thermodynamic yield, inverted Carnot cycle. Energy conversion machines: ideal Rankine cycle and real steam cycles; Brayton cycle and real gas turbine cycles; air-cooling cycles for absorption and compression of steam; air-cooling cycles; Heat pump cycles, non-reactive mixtures of ideal gases and Psychrometry.",
+                "ects": 6.0
+            },
+            {
+                "name": "Software Engineering",
+                "description": "Introduction to Software Engineering. Software design. Program writing. Development process. Engineering requirements. Project Management. Verification and validation.",
+                "ects": 7.5
+            }
+
+        ]
+    }
+}
