@@ -1,0 +1,9 @@
+Flask~=2.0.1
+flask_restful
+requests~=2.26.0
+numpy
+torch==1.9.0
+torchvision==0.10.0
+torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html
+huggingface-hub==0.0.12
+sentence-transformers
