@@ -9,9 +9,16 @@ class Filereader:
     ects = ""
     courses = []
 
-    def __init__(self, file1_path):
-        with open(file1_path, encoding="utf8") as f:
-            self.file1_data = json.load(f)
+    def __init__(self, file1):
+        #with open(file1_path, encoding="utf8") as f:
+        #self.file1_data = json.dumps(file1)
+        print("type of file:", type(file1))
+        # file2_json = file2_byte_content.decode('utf8').replace("'", '"')
+        # file1_str = "r" + file1
+        self.file1_data = json.loads(file1)
+
+        print("type of file:", type(self.file1_data))
+        print(self.file1_data["properties"]["name"])
 
     def set_fields(self):
         self.degree_name = self.file1_data["properties"]["name"]
@@ -25,6 +32,12 @@ class Filereader:
         print("first course:", self.courses[0]['name'])
         print("first course:", self.courses[0]['ects'])
 
+    def unset_fields(self):
+        self.degree_name = ""
+        self.sc_name = ""
+        self.ects = ""
+        self.courses = []
+
 
 class DegreeComparision:
     course1_list = []
@@ -34,6 +47,7 @@ class DegreeComparision:
     ects1 = 0.0
     ects2 = 0.0
     threshold = 0.0
+    output = []
 
     def __init__(self, course1, course2, th):
         self.course1_list = course1
@@ -58,7 +72,7 @@ class DegreeComparision:
 
     def calculate_similarity(self):
 
-        output = []
+        # output = []
 
         model = SentenceTransformer('paraphrase-MiniLM-L12-v2')
 
@@ -76,9 +90,14 @@ class DegreeComparision:
                     res_tuple = (self.course1_desc[i],
                              self.course2_desc[j],
                              cosine_scores[i][j].item())
-                    output.append(res_tuple)
+                    self.output.append(res_tuple)
 
-        return output
+        return self.output
+
+    def unset_fields(self):
+        self.course1_desc.clear()
+        self.course2_desc.clear()
+        self.output.clear()
 
 
 # if __name__ == '__main__':
