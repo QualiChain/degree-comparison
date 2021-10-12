@@ -13,7 +13,10 @@ The real degrees can be compared among themselves. A quick inspection shows that
 python app.py
 
 # REST ENDPOINT for Course comparison
-http://127.0.0.1:1080/compare/similarity?file1_path=ist-legi.json&file2_path=ist-leic.json
+http://127.0.0.1:1080/compare/similarity
+
+Example for sending a request using curl:
+curl -i -X GET -F file1_path=@ist-legi.json -F file2_path=@ist-leic.json "http://localhost:5000/compare/similarity"
 
 # REST endpoint for ECTS comparison
-http://127.0.0.1:1080/compare/ects?file1_path=ist-legi.json&file2_path=ist-leic.json
+http://127.0.0.1:1080/compare/ects
