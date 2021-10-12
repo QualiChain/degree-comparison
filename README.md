@@ -16,6 +16,7 @@ python app.py
 http://127.0.0.1:1080/compare/similarity
 
 Example for sending a request using curl:
+
 curl -i -X GET -F file1_path=@ist-legi.json -F file2_path=@ist-leic.json "http://localhost:5000/compare/similarity"
 
 # REST endpoint for ECTS comparison
