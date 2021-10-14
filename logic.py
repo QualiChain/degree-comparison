@@ -86,7 +86,7 @@ class DegreeComparision:
         # Output the pairs with their score
         for i in range(len(self.course1_desc)):
             for j in range(len(self.course2_desc)):
-                if cosine_scores[i][j] >= 0.7:
+                if cosine_scores[i][j] >= 0.65:
                     res_tuple = (self.course1_desc[i],
                              self.course2_desc[j],
                              cosine_scores[i][j].item())
