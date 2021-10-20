@@ -12,7 +12,7 @@ API = Api(APP)
 class CompareECTS(Resource):
 
     @staticmethod
-    def get():
+    def post():
         files = request.files
         file1 = files['file1_path']
         file1_byte_content = file1.read()
@@ -44,7 +44,7 @@ class CompareECTS(Resource):
 class CompareCourses(Resource):
 
     @staticmethod
-    def get():
+    def post():
         files = request.files
         file1 = files['file1_path']
         file1_byte_content = file1.read()
